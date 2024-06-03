@@ -1,0 +1,53 @@
+.pay-from-cash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .checkout-btn {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover, .back-btn:hover {
+    opacity: 0.8;
+  }
+  

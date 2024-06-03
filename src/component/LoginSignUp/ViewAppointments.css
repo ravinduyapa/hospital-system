@@ -1,0 +1,69 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .green-button {
+    background-color: green;
+    color: white;
+    width: 80px;
+  }
+  
+  .green-button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .blue-button {
+    background-color: rgb(233, 36, 39);
+    color: white;
+  }
+  
+  .blue-button:hover {
+    background-color: #1976d2;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .back-to-main {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from bottom */
+    left: 20px; /* Distance from left */
+  }
+  
+  .back-to-main button {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  .back-to-main button:hover {
+    background-color: #1565c0;
+  }
+  

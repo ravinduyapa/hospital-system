@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    margin-top: 20px;
+    font-size: 72px;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .btn.add-patient {
+    background-color: green;
+    color: white;
+  }
+  
+  .btn.clear {
+    background-color: orange;
+    color: white;
+  }
+  
+  .back-to-main {
+    margin-top: 20px;
+  }
+  
+  .back-to-main button {
+    margin-right: 10px;
+  }
+  
+  /* Hover styles for buttons */
+  .btn.add-patient:hover {
+    background-color: #008000; /* Darker green on hover */
+  }
+  
+  .btn.clear:hover {
+    background-color: #ff7f00; /* Darker orange on hover */
+  }
+  

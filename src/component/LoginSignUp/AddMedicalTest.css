@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .back-btn-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .back-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+  }
+
+  

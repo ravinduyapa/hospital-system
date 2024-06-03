@@ -1,0 +1,57 @@
+/* AddSuperAdmin.css */
+
+.super-admin-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative; /* Added position relative to .super-admin-container */
+  }
+  
+  .super-admin-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .super-admin-btn {
+    margin: 10px; /* Add margin around each button */
+    padding: 15px 30px; /* Increased padding for height and width */
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    cursor: pointer;
+    width: 200px; /* Fixed width for all buttons */
+    height: 50px; /* Fixed height for all buttons */
+  }
+  
+  .super-admin-btn:hover {
+    background-color: #2196f3; /* Blue color on hover */
+  }
+  
+  .super-admin-link {
+    text-decoration: none;
+  }
+  
+  .logout-container {
+    position: absolute; /* Position the container */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+  }
+  
+  .logout-btn {
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 8px; /* Added border-radius */
+    background-color: #f44336; /* Red color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #fff; /* White color on hover */
+    color: #f44336; /* Red text color on hover */
+  }
+  

@@ -1,0 +1,99 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-button {
+    background-color: orange;
+    color: white;
+  }
+  
+
+  .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .back-button-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .blue-button {
+    background-color: #1976d2;
+    color: white;
+  }
+
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .action-button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blue-button {
+    background-color:#1976d2;
+    color: white;
+  }
+  
+
+  
+  /* Additional CSS for styling the search box and button */
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 150px; /* Adjust the width as per your preference */
+  }
+  
+  
+  
+  
+
+  
